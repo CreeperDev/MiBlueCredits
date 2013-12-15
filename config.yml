@@ -1,0 +1,17 @@
+hungergames:
+  per-win: 5
+  enabled: false
+killstreak:
+  multiple: 10
+  worth: 1
+  enabled: false
+redeem:
+  worth: 100
+  # How much money a credit is worth.
+  enabled: false
+database:
+  user: root
+  pass: password
+  url: jdbc:mysql://localhost:3306/credits
+
+  

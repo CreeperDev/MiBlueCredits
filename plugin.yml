@@ -1,0 +1,8 @@
+name: MiBlueCredits
+main: net.miblue.credits.MiBlueCredits
+version: 1.0
+depend: [Vault]
+commands:
+   credits:
+      description: Root MiBlueCredits Command
+      usage: /credits [set <amount> <player> | add <amount> <player> | remove <amount> <player> | help | redeem <amount> <for>]
